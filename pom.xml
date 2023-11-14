@@ -15,6 +15,7 @@
 	
 	<build>
 		<finalName>BankZbozowyApp</finalName>
+		<plugins>
 		<plugin>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-maven-plugin</artifactId>
@@ -27,6 +28,7 @@
 			</httpConnector>
 			</configuration>
 		</plugin>
+		</plugins>
 	</build>
 
 	<properties>
